@@ -1,0 +1,1678 @@
+{
+  "build": "py27h3cfc35f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "icc_rt >=13.1.6",
+    "matplotlib",
+    "mkl >=2019.3,<2021.0a0",
+    "numpy >=1.11.3,<2.0a0",
+    "python >=2.7,<2.8.0a0",
+    "scipy",
+    "vc 9.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\pymc-2.3.7-py27h3cfc35f_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pymc-2.3.7-py2.7.egg-info",
+    "Lib/site-packages/pymc/CircularStochastic.py",
+    "Lib/site-packages/pymc/CircularStochastic.pyc",
+    "Lib/site-packages/pymc/CommonDeterministics.py",
+    "Lib/site-packages/pymc/CommonDeterministics.pyc",
+    "Lib/site-packages/pymc/Container.py",
+    "Lib/site-packages/pymc/Container.pyc",
+    "Lib/site-packages/pymc/Container_values.pyd",
+    "Lib/site-packages/pymc/InstantiationDecorators.py",
+    "Lib/site-packages/pymc/InstantiationDecorators.pyc",
+    "Lib/site-packages/pymc/LazyFunction.pyd",
+    "Lib/site-packages/pymc/MCMC.py",
+    "Lib/site-packages/pymc/MCMC.pyc",
+    "Lib/site-packages/pymc/Matplot.py",
+    "Lib/site-packages/pymc/Matplot.pyc",
+    "Lib/site-packages/pymc/Model.py",
+    "Lib/site-packages/pymc/Model.pyc",
+    "Lib/site-packages/pymc/Node.py",
+    "Lib/site-packages/pymc/Node.pyc",
+    "Lib/site-packages/pymc/NormalApproximation.py",
+    "Lib/site-packages/pymc/NormalApproximation.pyc",
+    "Lib/site-packages/pymc/NumpyDeterministics.py",
+    "Lib/site-packages/pymc/NumpyDeterministics.pyc",
+    "Lib/site-packages/pymc/PyMCObjects.py",
+    "Lib/site-packages/pymc/PyMCObjects.pyc",
+    "Lib/site-packages/pymc/ScipyDistributions.py",
+    "Lib/site-packages/pymc/ScipyDistributions.pyc",
+    "Lib/site-packages/pymc/StepMethods.py",
+    "Lib/site-packages/pymc/StepMethods.pyc",
+    "Lib/site-packages/pymc/__init__.py",
+    "Lib/site-packages/pymc/__init__.pyc",
+    "Lib/site-packages/pymc/calc_utils.py",
+    "Lib/site-packages/pymc/calc_utils.pyc",
+    "Lib/site-packages/pymc/database/__init__.py",
+    "Lib/site-packages/pymc/database/__init__.pyc",
+    "Lib/site-packages/pymc/database/base.py",
+    "Lib/site-packages/pymc/database/base.pyc",
+    "Lib/site-packages/pymc/database/hdf5.py",
+    "Lib/site-packages/pymc/database/hdf5.pyc",
+    "Lib/site-packages/pymc/database/hdf5ea.py",
+    "Lib/site-packages/pymc/database/hdf5ea.pyc",
+    "Lib/site-packages/pymc/database/no_trace.py",
+    "Lib/site-packages/pymc/database/no_trace.pyc",
+    "Lib/site-packages/pymc/database/pickle.py",
+    "Lib/site-packages/pymc/database/pickle.pyc",
+    "Lib/site-packages/pymc/database/ram.py",
+    "Lib/site-packages/pymc/database/ram.pyc",
+    "Lib/site-packages/pymc/database/sqlite.py",
+    "Lib/site-packages/pymc/database/sqlite.pyc",
+    "Lib/site-packages/pymc/database/txt.py",
+    "Lib/site-packages/pymc/database/txt.pyc",
+    "Lib/site-packages/pymc/datatypes.py",
+    "Lib/site-packages/pymc/datatypes.pyc",
+    "Lib/site-packages/pymc/decorators.py",
+    "Lib/site-packages/pymc/decorators.pyc",
+    "Lib/site-packages/pymc/diagnostics.py",
+    "Lib/site-packages/pymc/diagnostics.pyc",
+    "Lib/site-packages/pymc/distributions.py",
+    "Lib/site-packages/pymc/distributions.pyc",
+    "Lib/site-packages/pymc/examples/__init__.py",
+    "Lib/site-packages/pymc/examples/__init__.pyc",
+    "Lib/site-packages/pymc/examples/custom_step.py",
+    "Lib/site-packages/pymc/examples/custom_step.pyc",
+    "Lib/site-packages/pymc/examples/disaster_model.py",
+    "Lib/site-packages/pymc/examples/disaster_model.pyc",
+    "Lib/site-packages/pymc/examples/disaster_model_gof.py",
+    "Lib/site-packages/pymc/examples/disaster_model_gof.pyc",
+    "Lib/site-packages/pymc/examples/disaster_model_linear.py",
+    "Lib/site-packages/pymc/examples/disaster_model_linear.pyc",
+    "Lib/site-packages/pymc/examples/disaster_model_missing.py",
+    "Lib/site-packages/pymc/examples/disaster_model_missing.pyc",
+    "Lib/site-packages/pymc/examples/disaster_model_null.py",
+    "Lib/site-packages/pymc/examples/disaster_model_null.pyc",
+    "Lib/site-packages/pymc/examples/gelman_bioassay.py",
+    "Lib/site-packages/pymc/examples/gelman_bioassay.pyc",
+    "Lib/site-packages/pymc/examples/gp/MCMC.py",
+    "Lib/site-packages/pymc/examples/gp/MCMC.pyc",
+    "Lib/site-packages/pymc/examples/gp/PyMCmodel.py",
+    "Lib/site-packages/pymc/examples/gp/PyMCmodel.pyc",
+    "Lib/site-packages/pymc/examples/gp/__init__.py",
+    "Lib/site-packages/pymc/examples/gp/__init__.pyc",
+    "Lib/site-packages/pymc/examples/gp/basiscov.py",
+    "Lib/site-packages/pymc/examples/gp/basiscov.pyc",
+    "Lib/site-packages/pymc/examples/gp/cov.py",
+    "Lib/site-packages/pymc/examples/gp/cov.pyc",
+    "Lib/site-packages/pymc/examples/gp/covparams.py",
+    "Lib/site-packages/pymc/examples/gp/covparams.pyc",
+    "Lib/site-packages/pymc/examples/gp/mean.py",
+    "Lib/site-packages/pymc/examples/gp/mean.pyc",
+    "Lib/site-packages/pymc/examples/gp/mesh_choice.py",
+    "Lib/site-packages/pymc/examples/gp/mesh_choice.pyc",
+    "Lib/site-packages/pymc/examples/gp/observation.py",
+    "Lib/site-packages/pymc/examples/gp/observation.pyc",
+    "Lib/site-packages/pymc/examples/gp/realizations.py",
+    "Lib/site-packages/pymc/examples/gp/realizations.pyc",
+    "Lib/site-packages/pymc/examples/melanoma.py",
+    "Lib/site-packages/pymc/examples/melanoma.pyc",
+    "Lib/site-packages/pymc/examples/melanoma_data.py",
+    "Lib/site-packages/pymc/examples/melanoma_data.pyc",
+    "Lib/site-packages/pymc/examples/weibull_fit.py",
+    "Lib/site-packages/pymc/examples/weibull_fit.pyc",
+    "Lib/site-packages/pymc/examples/weibull_fit_gof.py",
+    "Lib/site-packages/pymc/examples/weibull_fit_gof.pyc",
+    "Lib/site-packages/pymc/examples/zip.py",
+    "Lib/site-packages/pymc/examples/zip.pyc",
+    "Lib/site-packages/pymc/flib.pyd",
+    "Lib/site-packages/pymc/gp/BasisCovariance.py",
+    "Lib/site-packages/pymc/gp/BasisCovariance.pyc",
+    "Lib/site-packages/pymc/gp/Covariance.py",
+    "Lib/site-packages/pymc/gp/Covariance.pyc",
+    "Lib/site-packages/pymc/gp/FullRankCovariance.py",
+    "Lib/site-packages/pymc/gp/FullRankCovariance.pyc",
+    "Lib/site-packages/pymc/gp/GPutils.py",
+    "Lib/site-packages/pymc/gp/GPutils.pyc",
+    "Lib/site-packages/pymc/gp/Mean.py",
+    "Lib/site-packages/pymc/gp/Mean.pyc",
+    "Lib/site-packages/pymc/gp/NearlyFullRankCovariance.py",
+    "Lib/site-packages/pymc/gp/NearlyFullRankCovariance.pyc",
+    "Lib/site-packages/pymc/gp/Realization.py",
+    "Lib/site-packages/pymc/gp/Realization.pyc",
+    "Lib/site-packages/pymc/gp/__init__.py",
+    "Lib/site-packages/pymc/gp/__init__.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/__init__.py",
+    "Lib/site-packages/pymc/gp/cov_funs/__init__.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/bases.py",
+    "Lib/site-packages/pymc/gp/cov_funs/bases.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/brownian.py",
+    "Lib/site-packages/pymc/gp/cov_funs/brownian.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/cov_utils.py",
+    "Lib/site-packages/pymc/gp/cov_funs/cov_utils.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/distances.pyd",
+    "Lib/site-packages/pymc/gp/cov_funs/isotropic_cov_funs.pyd",
+    "Lib/site-packages/pymc/gp/cov_funs/nsmatern.py",
+    "Lib/site-packages/pymc/gp/cov_funs/nsmatern.pyc",
+    "Lib/site-packages/pymc/gp/cov_funs/wrapped_distances.py",
+    "Lib/site-packages/pymc/gp/cov_funs/wrapped_distances.pyc",
+    "Lib/site-packages/pymc/gp/gp_submodel.py",
+    "Lib/site-packages/pymc/gp/gp_submodel.pyc",
+    "Lib/site-packages/pymc/gp/gpplots.py",
+    "Lib/site-packages/pymc/gp/gpplots.pyc",
+    "Lib/site-packages/pymc/gp/incomplete_chol.pyd",
+    "Lib/site-packages/pymc/gp/linalg_utils.pyd",
+    "Lib/site-packages/pymc/gp/step_methods.py",
+    "Lib/site-packages/pymc/gp/step_methods.pyc",
+    "Lib/site-packages/pymc/graph.py",
+    "Lib/site-packages/pymc/graph.pyc",
+    "Lib/site-packages/pymc/progressbar.py",
+    "Lib/site-packages/pymc/progressbar.pyc",
+    "Lib/site-packages/pymc/six.py",
+    "Lib/site-packages/pymc/six.pyc",
+    "Lib/site-packages/pymc/tests/__init__.py",
+    "Lib/site-packages/pymc/tests/__init__.pyc",
+    "Lib/site-packages/pymc/tests/objectmodel.py",
+    "Lib/site-packages/pymc/tests/objectmodel.pyc",
+    "Lib/site-packages/pymc/tests/test_AM.py",
+    "Lib/site-packages/pymc/tests/test_AM.pyc",
+    "Lib/site-packages/pymc/tests/test_GP_MCMC.py",
+    "Lib/site-packages/pymc/tests/test_GP_MCMC.pyc",
+    "Lib/site-packages/pymc/tests/test_MCMCSampler.py",
+    "Lib/site-packages/pymc/tests/test_MCMCSampler.pyc",
+    "Lib/site-packages/pymc/tests/test_adaptive.py",
+    "Lib/site-packages/pymc/tests/test_adaptive.pyc",
+    "Lib/site-packages/pymc/tests/test_basiscov.py",
+    "Lib/site-packages/pymc/tests/test_basiscov.pyc",
+    "Lib/site-packages/pymc/tests/test_binary_step.py",
+    "Lib/site-packages/pymc/tests/test_binary_step.pyc",
+    "Lib/site-packages/pymc/tests/test_container.py",
+    "Lib/site-packages/pymc/tests/test_container.pyc",
+    "Lib/site-packages/pymc/tests/test_convergence.py",
+    "Lib/site-packages/pymc/tests/test_convergence.pyc",
+    "Lib/site-packages/pymc/tests/test_cov.py",
+    "Lib/site-packages/pymc/tests/test_cov.pyc",
+    "Lib/site-packages/pymc/tests/test_database.py",
+    "Lib/site-packages/pymc/tests/test_database.pyc",
+    "Lib/site-packages/pymc/tests/test_distributions.py",
+    "Lib/site-packages/pymc/tests/test_distributions.pyc",
+    "Lib/site-packages/pymc/tests/test_gradients.py",
+    "Lib/site-packages/pymc/tests/test_gradients.pyc",
+    "Lib/site-packages/pymc/tests/test_graph.py",
+    "Lib/site-packages/pymc/tests/test_graph.pyc",
+    "Lib/site-packages/pymc/tests/test_instantiation.py",
+    "Lib/site-packages/pymc/tests/test_instantiation.pyc",
+    "Lib/site-packages/pymc/tests/test_interactive.py",
+    "Lib/site-packages/pymc/tests/test_interactive.pyc",
+    "Lib/site-packages/pymc/tests/test_mean.py",
+    "Lib/site-packages/pymc/tests/test_mean.pyc",
+    "Lib/site-packages/pymc/tests/test_missing.py",
+    "Lib/site-packages/pymc/tests/test_missing.pyc",
+    "Lib/site-packages/pymc/tests/test_norm_approx.py",
+    "Lib/site-packages/pymc/tests/test_norm_approx.pyc",
+    "Lib/site-packages/pymc/tests/test_observation.py",
+    "Lib/site-packages/pymc/tests/test_observation.pyc",
+    "Lib/site-packages/pymc/tests/test_realization.py",
+    "Lib/site-packages/pymc/tests/test_realization.pyc",
+    "Lib/site-packages/pymc/tests/test_slice.py",
+    "Lib/site-packages/pymc/tests/test_slice.pyc",
+    "Lib/site-packages/pymc/tests/test_special_methods.py",
+    "Lib/site-packages/pymc/tests/test_special_methods.pyc",
+    "Lib/site-packages/pymc/tests/test_utils.py",
+    "Lib/site-packages/pymc/tests/test_utils.pyc",
+    "Lib/site-packages/pymc/threadpool.py",
+    "Lib/site-packages/pymc/threadpool.pyc",
+    "Lib/site-packages/pymc/utils.py",
+    "Lib/site-packages/pymc/utils.pyc",
+    ".nonadmin"
+  ],
+  "fn": "pymc-2.3.7-py27h3cfc35f_0.conda",
+  "legacy_bz2_md5": "beafd3bbbc4a5f47c73e9043eb4b7677",
+  "legacy_bz2_size": 608905,
+  "license": "AFL-3.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\pymc-2.3.7-py27h3cfc35f_0",
+    "type": 1
+  },
+  "md5": "2a4c2520e6e883c0c4833139f938f2ae",
+  "name": "pymc",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\pymc-2.3.7-py27h3cfc35f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pymc-2.3.7-py2.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "dbc9f8da5ece576d5554ebd06e9cd8c2c84535cc5fc89083dec16caf0e4c05f5",
+        "sha256_in_prefix": "dbc9f8da5ece576d5554ebd06e9cd8c2c84535cc5fc89083dec16caf0e4c05f5",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "Lib/site-packages/pymc/CircularStochastic.py",
+        "path_type": "hardlink",
+        "sha256": "929c3ae86437687f774964cdf4cd2a45ca61dae712259195c0ba9863ab011776",
+        "sha256_in_prefix": "929c3ae86437687f774964cdf4cd2a45ca61dae712259195c0ba9863ab011776",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "Lib/site-packages/pymc/CircularStochastic.pyc",
+        "path_type": "hardlink",
+        "sha256": "51cb7a4af00953c8bcf9db855ff35108d5b5d5162cf83fadbd388d9efc1c1a73",
+        "sha256_in_prefix": "51cb7a4af00953c8bcf9db855ff35108d5b5d5162cf83fadbd388d9efc1c1a73",
+        "size_in_bytes": 3075
+      },
+      {
+        "_path": "Lib/site-packages/pymc/CommonDeterministics.py",
+        "path_type": "hardlink",
+        "sha256": "cc5c12b3aa41d2d9ba16a965fef58c47fb6f64b67f3755d27f7674323d1b8c66",
+        "sha256_in_prefix": "cc5c12b3aa41d2d9ba16a965fef58c47fb6f64b67f3755d27f7674323d1b8c66",
+        "size_in_bytes": 33774
+      },
+      {
+        "_path": "Lib/site-packages/pymc/CommonDeterministics.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bc9a9c4ff650d0083b8a7664f6972108a9d1144a0adfb2b039f301e93805a1d",
+        "sha256_in_prefix": "8bc9a9c4ff650d0083b8a7664f6972108a9d1144a0adfb2b039f301e93805a1d",
+        "size_in_bytes": 32071
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Container.py",
+        "path_type": "hardlink",
+        "sha256": "59bc7b357f7bad9e82f4dc2983b512528e2d985a0e089f4765b0a178554ca0b6",
+        "sha256_in_prefix": "59bc7b357f7bad9e82f4dc2983b512528e2d985a0e089f4765b0a178554ca0b6",
+        "size_in_bytes": 21951
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Container.pyc",
+        "path_type": "hardlink",
+        "sha256": "3990c0455369fd57a61a356d98f203389a76bb87fc748d7691d070533690569a",
+        "sha256_in_prefix": "3990c0455369fd57a61a356d98f203389a76bb87fc748d7691d070533690569a",
+        "size_in_bytes": 21353
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Container_values.pyd",
+        "path_type": "hardlink",
+        "sha256": "ffbfd34253c108fcb887e6bb6e50e93f0111f0a97839b5ac33b00c6cf9979f7b",
+        "sha256_in_prefix": "ffbfd34253c108fcb887e6bb6e50e93f0111f0a97839b5ac33b00c6cf9979f7b",
+        "size_in_bytes": 32768
+      },
+      {
+        "_path": "Lib/site-packages/pymc/InstantiationDecorators.py",
+        "path_type": "hardlink",
+        "sha256": "5f0296bba8b5f65c4c64ce801e73b30bbd1fac5ec14d92f27f3fac90c9cf76b2",
+        "sha256_in_prefix": "5f0296bba8b5f65c4c64ce801e73b30bbd1fac5ec14d92f27f3fac90c9cf76b2",
+        "size_in_bytes": 9512
+      },
+      {
+        "_path": "Lib/site-packages/pymc/InstantiationDecorators.pyc",
+        "path_type": "hardlink",
+        "sha256": "c03ae5b3b69e2c28b88f29e5466ab9175c6e44df373788472d5c68890e767330",
+        "sha256_in_prefix": "c03ae5b3b69e2c28b88f29e5466ab9175c6e44df373788472d5c68890e767330",
+        "size_in_bytes": 9799
+      },
+      {
+        "_path": "Lib/site-packages/pymc/LazyFunction.pyd",
+        "path_type": "hardlink",
+        "sha256": "9cb71d33fa3785e0acdd3ef461c2e57d65394a0ea508cd99a2adc2277d9b2c0e",
+        "sha256_in_prefix": "9cb71d33fa3785e0acdd3ef461c2e57d65394a0ea508cd99a2adc2277d9b2c0e",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Lib/site-packages/pymc/MCMC.py",
+        "path_type": "hardlink",
+        "sha256": "aa419561dbe86621adc4094b6034582a214128101486992286d309dc4b823727",
+        "sha256_in_prefix": "aa419561dbe86621adc4094b6034582a214128101486992286d309dc4b823727",
+        "size_in_bytes": 18212
+      },
+      {
+        "_path": "Lib/site-packages/pymc/MCMC.pyc",
+        "path_type": "hardlink",
+        "sha256": "83db35112c6a15c8098367bd37dd41580a91f33135c2d6e54ae0382c75a5b408",
+        "sha256_in_prefix": "83db35112c6a15c8098367bd37dd41580a91f33135c2d6e54ae0382c75a5b408",
+        "size_in_bytes": 14747
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Matplot.py",
+        "path_type": "hardlink",
+        "sha256": "64f8882fcd7ca1739709dd7ee45c6e0e663ce2a1424aa8fd39bcb61cee1ddf41",
+        "sha256_in_prefix": "64f8882fcd7ca1739709dd7ee45c6e0e663ce2a1424aa8fd39bcb61cee1ddf41",
+        "size_in_bytes": 42683
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Matplot.pyc",
+        "path_type": "hardlink",
+        "sha256": "106d16b2122a3cc8e49598ad6c9f7003a2823ac5ddcd3ad17d65830651d981ae",
+        "sha256_in_prefix": "106d16b2122a3cc8e49598ad6c9f7003a2823ac5ddcd3ad17d65830651d981ae",
+        "size_in_bytes": 35583
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Model.py",
+        "path_type": "hardlink",
+        "sha256": "ad51652ef18098cfe0cc17e426dac1df935403d36b1b9afa2288c56665ec70c5",
+        "sha256_in_prefix": "ad51652ef18098cfe0cc17e426dac1df935403d36b1b9afa2288c56665ec70c5",
+        "size_in_bytes": 29128
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Model.pyc",
+        "path_type": "hardlink",
+        "sha256": "17850e049c9ebade2c67d5abceef12ec908d91f3956efac8433d6f51a75d64af",
+        "sha256_in_prefix": "17850e049c9ebade2c67d5abceef12ec908d91f3956efac8433d6f51a75d64af",
+        "size_in_bytes": 27503
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Node.py",
+        "path_type": "hardlink",
+        "sha256": "b2b26eb14fb0fb7e78436367abd15ff19c25cd676d6bba9e3557899aada6f6b4",
+        "sha256_in_prefix": "b2b26eb14fb0fb7e78436367abd15ff19c25cd676d6bba9e3557899aada6f6b4",
+        "size_in_bytes": 13131
+      },
+      {
+        "_path": "Lib/site-packages/pymc/Node.pyc",
+        "path_type": "hardlink",
+        "sha256": "6538f0300748c2931bf66052c875fc6f97d6050287193c3aa31cae202a4eee89",
+        "sha256_in_prefix": "6538f0300748c2931bf66052c875fc6f97d6050287193c3aa31cae202a4eee89",
+        "size_in_bytes": 15145
+      },
+      {
+        "_path": "Lib/site-packages/pymc/NormalApproximation.py",
+        "path_type": "hardlink",
+        "sha256": "42a028e3a7bff9755c3a0fb361ea08c9c1d0ead9604a408f613c0aa41d6255cf",
+        "sha256_in_prefix": "42a028e3a7bff9755c3a0fb361ea08c9c1d0ead9604a408f613c0aa41d6255cf",
+        "size_in_bytes": 19610
+      },
+      {
+        "_path": "Lib/site-packages/pymc/NormalApproximation.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff52995d2d6b837905ec0452509d3b3a57c72bc0b237212847e2acb7b570b063",
+        "sha256_in_prefix": "ff52995d2d6b837905ec0452509d3b3a57c72bc0b237212847e2acb7b570b063",
+        "size_in_bytes": 18611
+      },
+      {
+        "_path": "Lib/site-packages/pymc/NumpyDeterministics.py",
+        "path_type": "hardlink",
+        "sha256": "96b1153655d38f91986c2ef9acf4f640712a0e60c0ef6651412850cc46bcd377",
+        "sha256_in_prefix": "96b1153655d38f91986c2ef9acf4f640712a0e60c0ef6651412850cc46bcd377",
+        "size_in_bytes": 9910
+      },
+      {
+        "_path": "Lib/site-packages/pymc/NumpyDeterministics.pyc",
+        "path_type": "hardlink",
+        "sha256": "30b5efa9609126d2a211aa2caa690ddb0488df5eecdc0b0944904478a2bc4120",
+        "sha256_in_prefix": "30b5efa9609126d2a211aa2caa690ddb0488df5eecdc0b0944904478a2bc4120",
+        "size_in_bytes": 11144
+      },
+      {
+        "_path": "Lib/site-packages/pymc/PyMCObjects.py",
+        "path_type": "hardlink",
+        "sha256": "0c3fcc0f6b6c66bfeb4d4dc5a239f8cd896f6e5267005f9e51bcafd8f7d3190b",
+        "sha256_in_prefix": "0c3fcc0f6b6c66bfeb4d4dc5a239f8cd896f6e5267005f9e51bcafd8f7d3190b",
+        "size_in_bytes": 35914
+      },
+      {
+        "_path": "Lib/site-packages/pymc/PyMCObjects.pyc",
+        "path_type": "hardlink",
+        "sha256": "d64ea15849b2ae1cb9ac6180cd2155c5d294f436f6c152d2f92d53a7aadb19e0",
+        "sha256_in_prefix": "d64ea15849b2ae1cb9ac6180cd2155c5d294f436f6c152d2f92d53a7aadb19e0",
+        "size_in_bytes": 29809
+      },
+      {
+        "_path": "Lib/site-packages/pymc/ScipyDistributions.py",
+        "path_type": "hardlink",
+        "sha256": "b0e7a3c94bb6f918e7a4215cdd56cb9dad5589cc1254af4badf1c8a73006eb9e",
+        "sha256_in_prefix": "b0e7a3c94bb6f918e7a4215cdd56cb9dad5589cc1254af4badf1c8a73006eb9e",
+        "size_in_bytes": 8465
+      },
+      {
+        "_path": "Lib/site-packages/pymc/ScipyDistributions.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2486d5a93118d7c35c2b3aa97177500209da94457fba0a06d2d544a9c179f85",
+        "sha256_in_prefix": "e2486d5a93118d7c35c2b3aa97177500209da94457fba0a06d2d544a9c179f85",
+        "size_in_bytes": 7746
+      },
+      {
+        "_path": "Lib/site-packages/pymc/StepMethods.py",
+        "path_type": "hardlink",
+        "sha256": "bfc712fc41b8486e5a5a4ab308f9e607375b60490bf75066a7658d35d2393a75",
+        "sha256_in_prefix": "bfc712fc41b8486e5a5a4ab308f9e607375b60490bf75066a7658d35d2393a75",
+        "size_in_bytes": 66334
+      },
+      {
+        "_path": "Lib/site-packages/pymc/StepMethods.pyc",
+        "path_type": "hardlink",
+        "sha256": "271fe85d3099df4c1109f5ca021c001d1b712074e517d54e9df1c7bc1d958256",
+        "sha256_in_prefix": "271fe85d3099df4c1109f5ca021c001d1b712074e517d54e9df1c7bc1d958256",
+        "size_in_bytes": 57411
+      },
+      {
+        "_path": "Lib/site-packages/pymc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6d153a38eb2ac642c2e8b9f46750042285efbfc5a2472482cb8324719f9809cc",
+        "sha256_in_prefix": "6d153a38eb2ac642c2e8b9f46750042285efbfc5a2472482cb8324719f9809cc",
+        "size_in_bytes": 2046
+      },
+      {
+        "_path": "Lib/site-packages/pymc/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "79291034c4a03889fcce578dcd5ac58f30d08b7ac56e521c7a6eb8e3a3689317",
+        "sha256_in_prefix": "79291034c4a03889fcce578dcd5ac58f30d08b7ac56e521c7a6eb8e3a3689317",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "Lib/site-packages/pymc/calc_utils.py",
+        "path_type": "hardlink",
+        "sha256": "620463fc1be2411195fed5461194cc2f8991abb8e5b46ca66f5355b4b70f6984",
+        "sha256_in_prefix": "620463fc1be2411195fed5461194cc2f8991abb8e5b46ca66f5355b4b70f6984",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "Lib/site-packages/pymc/calc_utils.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f9e8332ef733fe829470765f2100eb7962151a47b3efa26007ae898782e9a9b",
+        "sha256_in_prefix": "8f9e8332ef733fe829470765f2100eb7962151a47b3efa26007ae898782e9a9b",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e5baeebaa745a1546b0e0b815a02ca961b6cace95dbbc517216cd8f15af9dfd",
+        "sha256_in_prefix": "4e5baeebaa745a1546b0e0b815a02ca961b6cace95dbbc517216cd8f15af9dfd",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "f306a32bce6a18c40b2f927d1936267fdf90705d110a8cc78c6a3a7caf78c71c",
+        "sha256_in_prefix": "f306a32bce6a18c40b2f927d1936267fdf90705d110a8cc78c6a3a7caf78c71c",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/base.py",
+        "path_type": "hardlink",
+        "sha256": "e0861e63a9567c4c75955ff4afa0ead1bc1bace35454b30a9632daeab277a7b0",
+        "sha256_in_prefix": "e0861e63a9567c4c75955ff4afa0ead1bc1bace35454b30a9632daeab277a7b0",
+        "size_in_bytes": 14390
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/base.pyc",
+        "path_type": "hardlink",
+        "sha256": "40e9c53a809e85929db476a4b0183a37673f99364d91d6846526ff8ce134208a",
+        "sha256_in_prefix": "40e9c53a809e85929db476a4b0183a37673f99364d91d6846526ff8ce134208a",
+        "size_in_bytes": 15211
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "42238b8cdb876238d2f6648c320cdc1b7aad9bc11d1f8ea3e69a10c6337b1675",
+        "sha256_in_prefix": "42238b8cdb876238d2f6648c320cdc1b7aad9bc11d1f8ea3e69a10c6337b1675",
+        "size_in_bytes": 20350
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/hdf5.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbbc130b771355f495f21353b8a40a3cfbba6a083a76ad1833bc2f02d376ee19",
+        "sha256_in_prefix": "fbbc130b771355f495f21353b8a40a3cfbba6a083a76ad1833bc2f02d376ee19",
+        "size_in_bytes": 19131
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/hdf5ea.py",
+        "path_type": "hardlink",
+        "sha256": "a30684193cfc34be1803b8a57c878bf3284f20a191a7aabf1423eba3c3450d9e",
+        "sha256_in_prefix": "a30684193cfc34be1803b8a57c878bf3284f20a191a7aabf1423eba3c3450d9e",
+        "size_in_bytes": 9853
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/hdf5ea.pyc",
+        "path_type": "hardlink",
+        "sha256": "10e7431b7ab5f12f55c52cd45c5bf460032de2e3dcccf9f5cce263f00bc6d89c",
+        "sha256_in_prefix": "10e7431b7ab5f12f55c52cd45c5bf460032de2e3dcccf9f5cce263f00bc6d89c",
+        "size_in_bytes": 7567
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/no_trace.py",
+        "path_type": "hardlink",
+        "sha256": "f6bc0c540a46a5a699f4fd0ee11303592bbae126c822e10c1cc6a3d79638fabb",
+        "sha256_in_prefix": "f6bc0c540a46a5a699f4fd0ee11303592bbae126c822e10c1cc6a3d79638fabb",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/no_trace.pyc",
+        "path_type": "hardlink",
+        "sha256": "5171e17cd74eb075bdea0b6f3102c16c0ebe25b357785c57693ec4514c489465",
+        "sha256_in_prefix": "5171e17cd74eb075bdea0b6f3102c16c0ebe25b357785c57693ec4514c489465",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/pickle.py",
+        "path_type": "hardlink",
+        "sha256": "8e88aad813daa7a7563731dbfcb529bfce72c8f2ea04a68b47f5ca9434f3e28f",
+        "sha256_in_prefix": "8e88aad813daa7a7563731dbfcb529bfce72c8f2ea04a68b47f5ca9434f3e28f",
+        "size_in_bytes": 2374
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/pickle.pyc",
+        "path_type": "hardlink",
+        "sha256": "6302076ae5c045145db1a035fd861203c54a38a6f0d75cf94675eab885b7d37a",
+        "sha256_in_prefix": "6302076ae5c045145db1a035fd861203c54a38a6f0d75cf94675eab885b7d37a",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/ram.py",
+        "path_type": "hardlink",
+        "sha256": "bce71faf6f9703fafde7ca72b9eeeb50a3946f3946d0a84876bc31c4ffc47b22",
+        "sha256_in_prefix": "bce71faf6f9703fafde7ca72b9eeeb50a3946f3946d0a84876bc31c4ffc47b22",
+        "size_in_bytes": 5452
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/ram.pyc",
+        "path_type": "hardlink",
+        "sha256": "374b4963e3081967f50737914adc20a1af99171e7c88e3aa85b829d9de3cec09",
+        "sha256_in_prefix": "374b4963e3081967f50737914adc20a1af99171e7c88e3aa85b829d9de3cec09",
+        "size_in_bytes": 5786
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/sqlite.py",
+        "path_type": "hardlink",
+        "sha256": "79f0092a84f03e5d19804bab96f3357c81c0f6b13e38d95d6e70e17e83e6ddb7",
+        "sha256_in_prefix": "79f0092a84f03e5d19804bab96f3357c81c0f6b13e38d95d6e70e17e83e6ddb7",
+        "size_in_bytes": 9285
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/sqlite.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fe46196d9568295ba1f519b7f5759def92e5644e6f89fcb242f2a45c2ffec06",
+        "sha256_in_prefix": "3fe46196d9568295ba1f519b7f5759def92e5644e6f89fcb242f2a45c2ffec06",
+        "size_in_bytes": 9143
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/txt.py",
+        "path_type": "hardlink",
+        "sha256": "634b3a1c079fb5d6c34e285158a200c4abef30c47b296fd44b504909f10593f2",
+        "sha256_in_prefix": "634b3a1c079fb5d6c34e285158a200c4abef30c47b296fd44b504909f10593f2",
+        "size_in_bytes": 5910
+      },
+      {
+        "_path": "Lib/site-packages/pymc/database/txt.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5aa59507db993317b451b2f0b2893c5159238373066f4fdd8a4afc18ce390e1",
+        "sha256_in_prefix": "a5aa59507db993317b451b2f0b2893c5159238373066f4fdd8a4afc18ce390e1",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "Lib/site-packages/pymc/datatypes.py",
+        "path_type": "hardlink",
+        "sha256": "02ebaf2c612c82200a3b6d7b690362902e8edeef334410a9a002477559fae96c",
+        "sha256_in_prefix": "02ebaf2c612c82200a3b6d7b690362902e8edeef334410a9a002477559fae96c",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "Lib/site-packages/pymc/datatypes.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7ce98ff5635af7c9c93197058a93bc9d7f8000272468bfb6166bcc760f7405f",
+        "sha256_in_prefix": "e7ce98ff5635af7c9c93197058a93bc9d7f8000272468bfb6166bcc760f7405f",
+        "size_in_bytes": 2212
+      },
+      {
+        "_path": "Lib/site-packages/pymc/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "6e4fa57db3394fcded37f81c8cdfb7e0accbaf5c9a28d2b25fac3c543b5e8401",
+        "sha256_in_prefix": "6e4fa57db3394fcded37f81c8cdfb7e0accbaf5c9a28d2b25fac3c543b5e8401",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "Lib/site-packages/pymc/decorators.pyc",
+        "path_type": "hardlink",
+        "sha256": "d21a0c4c26bc6b3aaad25f8141d06fe03c5badcf102d9a715aba84c3968e852c",
+        "sha256_in_prefix": "d21a0c4c26bc6b3aaad25f8141d06fe03c5badcf102d9a715aba84c3968e852c",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "Lib/site-packages/pymc/diagnostics.py",
+        "path_type": "hardlink",
+        "sha256": "f5faf46c393a4946c34c43c1db5c0d89c00621dbe14258ee2bfe06830c01964a",
+        "sha256_in_prefix": "f5faf46c393a4946c34c43c1db5c0d89c00621dbe14258ee2bfe06830c01964a",
+        "size_in_bytes": 22391
+      },
+      {
+        "_path": "Lib/site-packages/pymc/diagnostics.pyc",
+        "path_type": "hardlink",
+        "sha256": "45c5bbacd67308d5f204414c2b6840e7625142ad6f328290ce0d89ed79d1ad66",
+        "sha256_in_prefix": "45c5bbacd67308d5f204414c2b6840e7625142ad6f328290ce0d89ed79d1ad66",
+        "size_in_bytes": 22161
+      },
+      {
+        "_path": "Lib/site-packages/pymc/distributions.py",
+        "path_type": "hardlink",
+        "sha256": "c3f9398362e10feef68153d27cdf14888d1f3d3b4ffbc664995d1f67e4d32548",
+        "sha256_in_prefix": "c3f9398362e10feef68153d27cdf14888d1f3d3b4ffbc664995d1f67e4d32548",
+        "size_in_bytes": 93926
+      },
+      {
+        "_path": "Lib/site-packages/pymc/distributions.pyc",
+        "path_type": "hardlink",
+        "sha256": "50d25bd6a48260b2e7e9da6952fa80b94301bdc0b446654d46f2570b359b0a55",
+        "sha256_in_prefix": "50d25bd6a48260b2e7e9da6952fa80b94301bdc0b446654d46f2570b359b0a55",
+        "size_in_bytes": 92816
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dad08c49428cf503600ba978f46f140d206285233da28dc75ab6eb6ca0968176",
+        "sha256_in_prefix": "dad08c49428cf503600ba978f46f140d206285233da28dc75ab6eb6ca0968176",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "02e62827156e0a4363e3b694520a101e62ac10dded165501750c0b495e7c5afb",
+        "sha256_in_prefix": "02e62827156e0a4363e3b694520a101e62ac10dded165501750c0b495e7c5afb",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/custom_step.py",
+        "path_type": "hardlink",
+        "sha256": "2d93b32c91d8e2f8d5a3a6d7191afaf9701f5c2a25c7714adc74cb4f1fcb534d",
+        "sha256_in_prefix": "2d93b32c91d8e2f8d5a3a6d7191afaf9701f5c2a25c7714adc74cb4f1fcb534d",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/custom_step.pyc",
+        "path_type": "hardlink",
+        "sha256": "f16486413115823aa591d82d8bf55c328461b65a5c09e9c4814a2e9d38be8547",
+        "sha256_in_prefix": "f16486413115823aa591d82d8bf55c328461b65a5c09e9c4814a2e9d38be8547",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model.py",
+        "path_type": "hardlink",
+        "sha256": "b737b41511c564cbe9ae8a412e2e638bd27d5aa17d9200dd3030383ac06026e8",
+        "sha256_in_prefix": "b737b41511c564cbe9ae8a412e2e638bd27d5aa17d9200dd3030383ac06026e8",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9cb7cb4465e90f4ad5b963a50d911532f0ca45a1997af0ca66c1ca8bbde3494",
+        "sha256_in_prefix": "a9cb7cb4465e90f4ad5b963a50d911532f0ca45a1997af0ca66c1ca8bbde3494",
+        "size_in_bytes": 1658
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_gof.py",
+        "path_type": "hardlink",
+        "sha256": "3771e32a2b400662d92b280bbff441ce7b33476e720ec0fbceb06c60a450af13",
+        "sha256_in_prefix": "3771e32a2b400662d92b280bbff441ce7b33476e720ec0fbceb06c60a450af13",
+        "size_in_bytes": 2818
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_gof.pyc",
+        "path_type": "hardlink",
+        "sha256": "6571d9183ad0480ce19913c18626215a806a87c92d36a615f11a3196a95d2af6",
+        "sha256_in_prefix": "6571d9183ad0480ce19913c18626215a806a87c92d36a615f11a3196a95d2af6",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_linear.py",
+        "path_type": "hardlink",
+        "sha256": "bc6516e27a173af2f06b1b249d4f9a3f339e56e1994849f76d89333e3dd3792b",
+        "sha256_in_prefix": "bc6516e27a173af2f06b1b249d4f9a3f339e56e1994849f76d89333e3dd3792b",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_linear.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae376a8332ebb5abcd0fb5e845520f735112f62993397c6058c228adea656147",
+        "sha256_in_prefix": "ae376a8332ebb5abcd0fb5e845520f735112f62993397c6058c228adea656147",
+        "size_in_bytes": 2355
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_missing.py",
+        "path_type": "hardlink",
+        "sha256": "18fd0ac7585b7d5c3094c92df656a58688b01bd6074a9913a44823044fc4ad89",
+        "sha256_in_prefix": "18fd0ac7585b7d5c3094c92df656a58688b01bd6074a9913a44823044fc4ad89",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_missing.pyc",
+        "path_type": "hardlink",
+        "sha256": "eae1c6179925e50676e86d804458b27153d67d3ae77cbc4d1f4255acab236573",
+        "sha256_in_prefix": "eae1c6179925e50676e86d804458b27153d67d3ae77cbc4d1f4255acab236573",
+        "size_in_bytes": 1849
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_null.py",
+        "path_type": "hardlink",
+        "sha256": "0c5d44c481d44c2d7adb36bcc2d8791e31e2c27ef3ee0d5ca6f66a61cffab721",
+        "sha256_in_prefix": "0c5d44c481d44c2d7adb36bcc2d8791e31e2c27ef3ee0d5ca6f66a61cffab721",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/disaster_model_null.pyc",
+        "path_type": "hardlink",
+        "sha256": "913084f581c93eedbf190fc9b597b51b87b3161185a09f09a88f1aa499d3f30c",
+        "sha256_in_prefix": "913084f581c93eedbf190fc9b597b51b87b3161185a09f09a88f1aa499d3f30c",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gelman_bioassay.py",
+        "path_type": "hardlink",
+        "sha256": "ff03e991f81f9ef29e302887dec238918f9d62c366a473df52c7cd8b7c471748",
+        "sha256_in_prefix": "ff03e991f81f9ef29e302887dec238918f9d62c366a473df52c7cd8b7c471748",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gelman_bioassay.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ebf67ddb72d29e71d0c34741c80e380084832717b19533bd2acc0f0cbdf26ef",
+        "sha256_in_prefix": "3ebf67ddb72d29e71d0c34741c80e380084832717b19533bd2acc0f0cbdf26ef",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/MCMC.py",
+        "path_type": "hardlink",
+        "sha256": "fe36a2e98d820198f32095c3d7965064c3336a08b51077824e205551e1b04c1f",
+        "sha256_in_prefix": "fe36a2e98d820198f32095c3d7965064c3336a08b51077824e205551e1b04c1f",
+        "size_in_bytes": 2198
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/MCMC.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6de873c90cca3a5cce72fb9f9b943219c00a0e99d6f469046e3833d76a9cf3e",
+        "sha256_in_prefix": "a6de873c90cca3a5cce72fb9f9b943219c00a0e99d6f469046e3833d76a9cf3e",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/PyMCmodel.py",
+        "path_type": "hardlink",
+        "sha256": "93a32e52bb45aedba5f0fc7806fd251766855ba69a950b410149c56f2bbfea74",
+        "sha256_in_prefix": "93a32e52bb45aedba5f0fc7806fd251766855ba69a950b410149c56f2bbfea74",
+        "size_in_bytes": 1883
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/PyMCmodel.pyc",
+        "path_type": "hardlink",
+        "sha256": "beb9d72fb8556e7d7f4812d1421afe17b1fb457027442b540ffb52ddc9db7854",
+        "sha256_in_prefix": "beb9d72fb8556e7d7f4812d1421afe17b1fb457027442b540ffb52ddc9db7854",
+        "size_in_bytes": 2337
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "97b1489939789ca12e5ac74cb57f3352287d15e0f4572197d24d82d59771547c",
+        "sha256_in_prefix": "97b1489939789ca12e5ac74cb57f3352287d15e0f4572197d24d82d59771547c",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7bc3f1d6fe0a64d2a410863c89d78bc52bc32e4aad2071662c5d55ef6e6db33",
+        "sha256_in_prefix": "c7bc3f1d6fe0a64d2a410863c89d78bc52bc32e4aad2071662c5d55ef6e6db33",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/basiscov.py",
+        "path_type": "hardlink",
+        "sha256": "82aec24b2cc0f29d8967ddeb539d4572686476f342e580ac891d5ff873257798",
+        "sha256_in_prefix": "82aec24b2cc0f29d8967ddeb539d4572686476f342e580ac891d5ff873257798",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/basiscov.pyc",
+        "path_type": "hardlink",
+        "sha256": "20fed4cdb8cd8a5dc8d5a9a32ed66071bb8d36814991fcdf4e81f2e41d2bbb1c",
+        "sha256_in_prefix": "20fed4cdb8cd8a5dc8d5a9a32ed66071bb8d36814991fcdf4e81f2e41d2bbb1c",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/cov.py",
+        "path_type": "hardlink",
+        "sha256": "eddfdf8f2a7de5ae87bfa42d86ec340cac6f2351a404eb75c8d48ee50ad6bbb5",
+        "sha256_in_prefix": "eddfdf8f2a7de5ae87bfa42d86ec340cac6f2351a404eb75c8d48ee50ad6bbb5",
+        "size_in_bytes": 1130
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/cov.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad9fa66325eef40411d4cb8951872fd5da98d6d86200f2b022dbf08de9a77fa1",
+        "sha256_in_prefix": "ad9fa66325eef40411d4cb8951872fd5da98d6d86200f2b022dbf08de9a77fa1",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/covparams.py",
+        "path_type": "hardlink",
+        "sha256": "4be39b7b41527ee8974d7743a049517468047a5372bb094d91ece6927046f52a",
+        "sha256_in_prefix": "4be39b7b41527ee8974d7743a049517468047a5372bb094d91ece6927046f52a",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/covparams.pyc",
+        "path_type": "hardlink",
+        "sha256": "64f11f043767b9e4c7ea5a13e817a77f37a027f3dc0c2745045ca498e4695e6c",
+        "sha256_in_prefix": "64f11f043767b9e4c7ea5a13e817a77f37a027f3dc0c2745045ca498e4695e6c",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/mean.py",
+        "path_type": "hardlink",
+        "sha256": "42659a52983d38e6f93d5f9fa6a50243e90a0470afbc5b0e45e82b494072d23b",
+        "sha256_in_prefix": "42659a52983d38e6f93d5f9fa6a50243e90a0470afbc5b0e45e82b494072d23b",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/mean.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c02804a7e5cd076212140896231b7e6146097d331ad9aae9aeba21e642dc0ae",
+        "sha256_in_prefix": "4c02804a7e5cd076212140896231b7e6146097d331ad9aae9aeba21e642dc0ae",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/mesh_choice.py",
+        "path_type": "hardlink",
+        "sha256": "8f37993c9db5d2e9ad8d938409bbd16730b5f69bef21f8696cd7b26d076f26e5",
+        "sha256_in_prefix": "8f37993c9db5d2e9ad8d938409bbd16730b5f69bef21f8696cd7b26d076f26e5",
+        "size_in_bytes": 1636
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/mesh_choice.pyc",
+        "path_type": "hardlink",
+        "sha256": "a76e6a85fa48c22f5ad0ad974e60530373e838dc9783c6848e2b4d36e697bc88",
+        "sha256_in_prefix": "a76e6a85fa48c22f5ad0ad974e60530373e838dc9783c6848e2b4d36e697bc88",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/observation.py",
+        "path_type": "hardlink",
+        "sha256": "a59b8f96e3f23a75027b59735d86195648f9b8e070a9c4d80485c93ee8298384",
+        "sha256_in_prefix": "a59b8f96e3f23a75027b59735d86195648f9b8e070a9c4d80485c93ee8298384",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/observation.pyc",
+        "path_type": "hardlink",
+        "sha256": "573f8e59c6314f011ddcf1131ae3371f9099ad50e408243b15df4984a532948f",
+        "sha256_in_prefix": "573f8e59c6314f011ddcf1131ae3371f9099ad50e408243b15df4984a532948f",
+        "size_in_bytes": 1017
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/realizations.py",
+        "path_type": "hardlink",
+        "sha256": "9bf58ab75776cd821eb1867cfd0ada906a9d65a829df1a6a1d20edb893a368cd",
+        "sha256_in_prefix": "9bf58ab75776cd821eb1867cfd0ada906a9d65a829df1a6a1d20edb893a368cd",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/gp/realizations.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f44ff6cf38577944735d815ec16ff1eb1ebcd32e39f097ccae90384490cb4fd",
+        "sha256_in_prefix": "3f44ff6cf38577944735d815ec16ff1eb1ebcd32e39f097ccae90384490cb4fd",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/melanoma.py",
+        "path_type": "hardlink",
+        "sha256": "dd5a61db1fd3154b0452d030bfa9468b2821fdae9400ff5cb03f493e66fec18b",
+        "sha256_in_prefix": "dd5a61db1fd3154b0452d030bfa9468b2821fdae9400ff5cb03f493e66fec18b",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/melanoma.pyc",
+        "path_type": "hardlink",
+        "sha256": "869a73505756e120006be832ed84c70c87b425fcdbfcaa5f78a20d9b11c725a4",
+        "sha256_in_prefix": "869a73505756e120006be832ed84c70c87b425fcdbfcaa5f78a20d9b11c725a4",
+        "size_in_bytes": 1674
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/melanoma_data.py",
+        "path_type": "hardlink",
+        "sha256": "4ce47cf31167ed01c440f7d496be8ed21a8acabec99a191c4e300c83035c8250",
+        "sha256_in_prefix": "4ce47cf31167ed01c440f7d496be8ed21a8acabec99a191c4e300c83035c8250",
+        "size_in_bytes": 13156
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/melanoma_data.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8b992ab8c5c73c8c23482409e532f86027c44d93dc88197dde1c39e51d1ac1d",
+        "sha256_in_prefix": "f8b992ab8c5c73c8c23482409e532f86027c44d93dc88197dde1c39e51d1ac1d",
+        "size_in_bytes": 10983
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/weibull_fit.py",
+        "path_type": "hardlink",
+        "sha256": "d5712280d7c122b2f9b105fc4a3631986e78a6d1cc8e7d377651f2b0bf61ac54",
+        "sha256_in_prefix": "d5712280d7c122b2f9b105fc4a3631986e78a6d1cc8e7d377651f2b0bf61ac54",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/weibull_fit.pyc",
+        "path_type": "hardlink",
+        "sha256": "163ef381349945970557808016bfdbc70470ba951e3b72524b8eecc5d2a0a25e",
+        "sha256_in_prefix": "163ef381349945970557808016bfdbc70470ba951e3b72524b8eecc5d2a0a25e",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/weibull_fit_gof.py",
+        "path_type": "hardlink",
+        "sha256": "1ca7dbae5077a552b7403b3be91f9acd6f03b4488b1ce92295607037f8471afa",
+        "sha256_in_prefix": "1ca7dbae5077a552b7403b3be91f9acd6f03b4488b1ce92295607037f8471afa",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/weibull_fit_gof.pyc",
+        "path_type": "hardlink",
+        "sha256": "d60076e88dd41ef820ee612042fd7f6f994c03121381307a151566951f95b1bb",
+        "sha256_in_prefix": "d60076e88dd41ef820ee612042fd7f6f994c03121381307a151566951f95b1bb",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/zip.py",
+        "path_type": "hardlink",
+        "sha256": "3a19c45bc4d4914e4091c1fc5f9ce7b18e8991e3d84b882fa286877b139331a0",
+        "sha256_in_prefix": "3a19c45bc4d4914e4091c1fc5f9ce7b18e8991e3d84b882fa286877b139331a0",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "Lib/site-packages/pymc/examples/zip.pyc",
+        "path_type": "hardlink",
+        "sha256": "43f0eb6b9c63282f05872a390c74a603e57c90dbfb8a25691ccc698a475790ff",
+        "sha256_in_prefix": "43f0eb6b9c63282f05872a390c74a603e57c90dbfb8a25691ccc698a475790ff",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "Lib/site-packages/pymc/flib.pyd",
+        "path_type": "hardlink",
+        "sha256": "76f33ffbf7a47e06e474dd397b55bab8593a96e9391d93d5664cade7a8c06f40",
+        "sha256_in_prefix": "76f33ffbf7a47e06e474dd397b55bab8593a96e9391d93d5664cade7a8c06f40",
+        "size_in_bytes": 437248
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/BasisCovariance.py",
+        "path_type": "hardlink",
+        "sha256": "c170212004559bc7f6b1161a5cda3f11b2457a3314da17520b7ac2d3e3b69c58",
+        "sha256_in_prefix": "c170212004559bc7f6b1161a5cda3f11b2457a3314da17520b7ac2d3e3b69c58",
+        "size_in_bytes": 15459
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/BasisCovariance.pyc",
+        "path_type": "hardlink",
+        "sha256": "f298fb9410c8c37873e8bd7c43a3e0ea91fd28dd733ca1077ed7aa30bb0f2665",
+        "sha256_in_prefix": "f298fb9410c8c37873e8bd7c43a3e0ea91fd28dd733ca1077ed7aa30bb0f2665",
+        "size_in_bytes": 11432
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Covariance.py",
+        "path_type": "hardlink",
+        "sha256": "15f7897218998bee6ddd22665e945af338c447c82e91a33f411da3c57deed169",
+        "sha256_in_prefix": "15f7897218998bee6ddd22665e945af338c447c82e91a33f411da3c57deed169",
+        "size_in_bytes": 23631
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Covariance.pyc",
+        "path_type": "hardlink",
+        "sha256": "fccadaae3b307179c613fac42507df986ff5de9b46b3ad1c86f763341398a37c",
+        "sha256_in_prefix": "fccadaae3b307179c613fac42507df986ff5de9b46b3ad1c86f763341398a37c",
+        "size_in_bytes": 14336
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/FullRankCovariance.py",
+        "path_type": "hardlink",
+        "sha256": "1c4cdb264f406292e9cb681eb4ffd2a946f270f2835990d0976074d8b652bb21",
+        "sha256_in_prefix": "1c4cdb264f406292e9cb681eb4ffd2a946f270f2835990d0976074d8b652bb21",
+        "size_in_bytes": 11139
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/FullRankCovariance.pyc",
+        "path_type": "hardlink",
+        "sha256": "d15f91b9a0238373999a8becd921395f320ad93cda939fc7b975a20b1a549648",
+        "sha256_in_prefix": "d15f91b9a0238373999a8becd921395f320ad93cda939fc7b975a20b1a549648",
+        "size_in_bytes": 7718
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/GPutils.py",
+        "path_type": "hardlink",
+        "sha256": "01f2596b7d5b7c08ee1714fc8ff3a9c3c805430c8e949631e1ff44b3c7390114",
+        "sha256_in_prefix": "01f2596b7d5b7c08ee1714fc8ff3a9c3c805430c8e949631e1ff44b3c7390114",
+        "size_in_bytes": 11621
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/GPutils.pyc",
+        "path_type": "hardlink",
+        "sha256": "0eee8937288634af2ad70c26d935c9158c0d0b785a1a7f3a8a347e84a3467230",
+        "sha256_in_prefix": "0eee8937288634af2ad70c26d935c9158c0d0b785a1a7f3a8a347e84a3467230",
+        "size_in_bytes": 12600
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Mean.py",
+        "path_type": "hardlink",
+        "sha256": "3f153931c8e03843ef0e24750fd7e4d83b6ab7d89b504e03fe432311eb2dc8f0",
+        "sha256_in_prefix": "3f153931c8e03843ef0e24750fd7e4d83b6ab7d89b504e03fe432311eb2dc8f0",
+        "size_in_bytes": 3567
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Mean.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb3024c951c95a0172352961f5e5aaa57b56a8d3eb44ccc48ba879cabebe4fe7",
+        "sha256_in_prefix": "bb3024c951c95a0172352961f5e5aaa57b56a8d3eb44ccc48ba879cabebe4fe7",
+        "size_in_bytes": 3224
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/NearlyFullRankCovariance.py",
+        "path_type": "hardlink",
+        "sha256": "1c868b400eb21ee37964c410a5c3855f1fb42d566c06f4d22f359bc57760bc7e",
+        "sha256_in_prefix": "1c868b400eb21ee37964c410a5c3855f1fb42d566c06f4d22f359bc57760bc7e",
+        "size_in_bytes": 10347
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/NearlyFullRankCovariance.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b527b598845aebb2d86c32c3ea11adc846dd6d64dcafd727dd5f7a006de910a",
+        "sha256_in_prefix": "6b527b598845aebb2d86c32c3ea11adc846dd6d64dcafd727dd5f7a006de910a",
+        "size_in_bytes": 8207
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Realization.py",
+        "path_type": "hardlink",
+        "sha256": "9a9f5ab4fe800b83b214d32129e37f471ea8947aa5317191f621a14ad91bcf1c",
+        "sha256_in_prefix": "9a9f5ab4fe800b83b214d32129e37f471ea8947aa5317191f621a14ad91bcf1c",
+        "size_in_bytes": 7723
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/Realization.pyc",
+        "path_type": "hardlink",
+        "sha256": "e37d5a94c1e04f595066f5a823b187308120bdf62a26c91fe504fa53048a6536",
+        "sha256_in_prefix": "e37d5a94c1e04f595066f5a823b187308120bdf62a26c91fe504fa53048a6536",
+        "size_in_bytes": 7096
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "254ffe5a15bfdb4db2e7fbcc745d31bdbd069823145c1f3405010cd51b92b18e",
+        "sha256_in_prefix": "254ffe5a15bfdb4db2e7fbcc745d31bdbd069823145c1f3405010cd51b92b18e",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3c5e994b6c05ab89742f38d2af61a4081ea08edbb7fe473cd9841a5a19455f9",
+        "sha256_in_prefix": "b3c5e994b6c05ab89742f38d2af61a4081ea08edbb7fe473cd9841a5a19455f9",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a2ac0435311f02b633bf50ba3f286129834868d95e68bc43f8971cfd7fef79a",
+        "sha256_in_prefix": "9a2ac0435311f02b633bf50ba3f286129834868d95e68bc43f8971cfd7fef79a",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "5bbb6e5a76e9f645c4df86298a203c043dd39fd2c227446d3cddf971ed0019be",
+        "sha256_in_prefix": "5bbb6e5a76e9f645c4df86298a203c043dd39fd2c227446d3cddf971ed0019be",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/bases.py",
+        "path_type": "hardlink",
+        "sha256": "cfac75cdd0b6c84818fccc93f04c416c23cc67edbbcf2c39b58a01db0d79c039",
+        "sha256_in_prefix": "cfac75cdd0b6c84818fccc93f04c416c23cc67edbbcf2c39b58a01db0d79c039",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/bases.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0e0cf8e39d799bf1f5dc7bada5ab769682a0eb57559c63537e42340cfd40244",
+        "sha256_in_prefix": "f0e0cf8e39d799bf1f5dc7bada5ab769682a0eb57559c63537e42340cfd40244",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/brownian.py",
+        "path_type": "hardlink",
+        "sha256": "646aba257441450d04b34839984d8bddb4aa206fdc49a7f6b693241ad9eeb26f",
+        "sha256_in_prefix": "646aba257441450d04b34839984d8bddb4aa206fdc49a7f6b693241ad9eeb26f",
+        "size_in_bytes": 3359
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/brownian.pyc",
+        "path_type": "hardlink",
+        "sha256": "b575ffb92f208a696459bd4eaff4ce798057ad48f6b043b7bca51501af6ca9f7",
+        "sha256_in_prefix": "b575ffb92f208a696459bd4eaff4ce798057ad48f6b043b7bca51501af6ca9f7",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/cov_utils.py",
+        "path_type": "hardlink",
+        "sha256": "fd20a3028fc6f37b2548789fcbd87cc977c281e14cccfd2418212caf2c0ce227",
+        "sha256_in_prefix": "fd20a3028fc6f37b2548789fcbd87cc977c281e14cccfd2418212caf2c0ce227",
+        "size_in_bytes": 11061
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/cov_utils.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a985e1fa21531fb2d77461320fa977e2b34e9b146f8dbf9aa06a6a98ef06c62",
+        "sha256_in_prefix": "6a985e1fa21531fb2d77461320fa977e2b34e9b146f8dbf9aa06a6a98ef06c62",
+        "size_in_bytes": 10591
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/distances.pyd",
+        "path_type": "hardlink",
+        "sha256": "60750c404c305c93f4c64e702b2b013eddf553a554969a9f6091f0eb79a1f5a9",
+        "sha256_in_prefix": "60750c404c305c93f4c64e702b2b013eddf553a554969a9f6091f0eb79a1f5a9",
+        "size_in_bytes": 39424
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/isotropic_cov_funs.pyd",
+        "path_type": "hardlink",
+        "sha256": "6097309ee7ca747d92e8a423a04be5aaf4d63d0e47da87a5a57f868a6b88d877",
+        "sha256_in_prefix": "6097309ee7ca747d92e8a423a04be5aaf4d63d0e47da87a5a57f868a6b88d877",
+        "size_in_bytes": 81920
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/nsmatern.py",
+        "path_type": "hardlink",
+        "sha256": "feed9016b312a690ec68fafe9bb1fd759053595e3cdb619f9f9645b5face011f",
+        "sha256_in_prefix": "feed9016b312a690ec68fafe9bb1fd759053595e3cdb619f9f9645b5face011f",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/nsmatern.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b311301889dd64b5bf74888ac67c51b80d50d051e64e172734c00a67fd8e6be",
+        "sha256_in_prefix": "2b311301889dd64b5bf74888ac67c51b80d50d051e64e172734c00a67fd8e6be",
+        "size_in_bytes": 2492
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/wrapped_distances.py",
+        "path_type": "hardlink",
+        "sha256": "faaa6ed6e30040d9520d0aa8b1ef1c4fff3eb61c08c8f56cf27e8ba5eaee3f08",
+        "sha256_in_prefix": "faaa6ed6e30040d9520d0aa8b1ef1c4fff3eb61c08c8f56cf27e8ba5eaee3f08",
+        "size_in_bytes": 4082
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/cov_funs/wrapped_distances.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e318ff619731596a9ac7911ef2a66d1699b506b6ae6e03bd7e0ef4b8156d9b2",
+        "sha256_in_prefix": "8e318ff619731596a9ac7911ef2a66d1699b506b6ae6e03bd7e0ef4b8156d9b2",
+        "size_in_bytes": 4521
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/gp_submodel.py",
+        "path_type": "hardlink",
+        "sha256": "5415d8ed01e1d76a16b4f4c6967f98b5d59eedf16b411712f315b38c9f742b8d",
+        "sha256_in_prefix": "5415d8ed01e1d76a16b4f4c6967f98b5d59eedf16b411712f315b38c9f742b8d",
+        "size_in_bytes": 10061
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/gp_submodel.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb08481f8ad3f85c4425f91a8154d4e38ac8baa8ba8c4c21f4bbdf7164ba4bcf",
+        "sha256_in_prefix": "fb08481f8ad3f85c4425f91a8154d4e38ac8baa8ba8c4c21f4bbdf7164ba4bcf",
+        "size_in_bytes": 10330
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/gpplots.py",
+        "path_type": "hardlink",
+        "sha256": "dafd4f15828b128896ad48c26f34dfd48618dc8ef1eb3adb05ce6b69fe7e58d7",
+        "sha256_in_prefix": "dafd4f15828b128896ad48c26f34dfd48618dc8ef1eb3adb05ce6b69fe7e58d7",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/gpplots.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f53be1507a2e86aebf4259f668528dfe0d24d98cdaacc1f9552a2e57871727b",
+        "sha256_in_prefix": "8f53be1507a2e86aebf4259f668528dfe0d24d98cdaacc1f9552a2e57871727b",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/incomplete_chol.pyd",
+        "path_type": "hardlink",
+        "sha256": "df839565942b5c7b915b11e48ba5b0a9d37f62f2a30c7d7668db6438b46df599",
+        "sha256_in_prefix": "df839565942b5c7b915b11e48ba5b0a9d37f62f2a30c7d7668db6438b46df599",
+        "size_in_bytes": 45568
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/linalg_utils.pyd",
+        "path_type": "hardlink",
+        "sha256": "af4e76abfb7a68c086f0231d347e0c410c9d3a3cc0b7e356c01a4c5cd7836178",
+        "sha256_in_prefix": "af4e76abfb7a68c086f0231d347e0c410c9d3a3cc0b7e356c01a4c5cd7836178",
+        "size_in_bytes": 58880
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/step_methods.py",
+        "path_type": "hardlink",
+        "sha256": "57ffeb6c4756f9d54c0fa332c0e0078d3528e366ed5c6955590aa54befffcb50",
+        "sha256_in_prefix": "57ffeb6c4756f9d54c0fa332c0e0078d3528e366ed5c6955590aa54befffcb50",
+        "size_in_bytes": 11330
+      },
+      {
+        "_path": "Lib/site-packages/pymc/gp/step_methods.pyc",
+        "path_type": "hardlink",
+        "sha256": "76d734bb0918eca27668966a985d5d87fbd14f05e4d31c88bca003a033f36d77",
+        "sha256_in_prefix": "76d734bb0918eca27668966a985d5d87fbd14f05e4d31c88bca003a033f36d77",
+        "size_in_bytes": 11830
+      },
+      {
+        "_path": "Lib/site-packages/pymc/graph.py",
+        "path_type": "hardlink",
+        "sha256": "4a26c35d7c0119c7fa78f780af8f835b808052624b1136828cf339f75a47e0f2",
+        "sha256_in_prefix": "4a26c35d7c0119c7fa78f780af8f835b808052624b1136828cf339f75a47e0f2",
+        "size_in_bytes": 11397
+      },
+      {
+        "_path": "Lib/site-packages/pymc/graph.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ac2bcf2475f8faffd657c65f65fad5cddf52e4e67441f484b237c7553b0a30a",
+        "sha256_in_prefix": "3ac2bcf2475f8faffd657c65f65fad5cddf52e4e67441f484b237c7553b0a30a",
+        "size_in_bytes": 8347
+      },
+      {
+        "_path": "Lib/site-packages/pymc/progressbar.py",
+        "path_type": "hardlink",
+        "sha256": "b754639973969a37a3c18bf16ac9fe5338d15ece64175b50f9488988d5f599d0",
+        "sha256_in_prefix": "b754639973969a37a3c18bf16ac9fe5338d15ece64175b50f9488988d5f599d0",
+        "size_in_bytes": 3306
+      },
+      {
+        "_path": "Lib/site-packages/pymc/progressbar.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd607df8aabb9697df9ecdc871e1102ab756f500cafcebb61de941e283aa333d",
+        "sha256_in_prefix": "fd607df8aabb9697df9ecdc871e1102ab756f500cafcebb61de941e283aa333d",
+        "size_in_bytes": 5137
+      },
+      {
+        "_path": "Lib/site-packages/pymc/six.py",
+        "path_type": "hardlink",
+        "sha256": "3bf87c3fb0881ee3985257f717f5f56549f9644efeb8fa8cbba1d39f70cf4f63",
+        "sha256_in_prefix": "3bf87c3fb0881ee3985257f717f5f56549f9644efeb8fa8cbba1d39f70cf4f63",
+        "size_in_bytes": 23406
+      },
+      {
+        "_path": "Lib/site-packages/pymc/six.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f8feec71eaf8b9e13b1bd2e21607982afbb5a8516c1aad31730069a06f36f78",
+        "sha256_in_prefix": "2f8feec71eaf8b9e13b1bd2e21607982afbb5a8516c1aad31730069a06f36f78",
+        "size_in_bytes": 21853
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f394a1612c11d13f1cf5d5febe04e2357648b79a203acf4267ca887f2212dd0",
+        "sha256_in_prefix": "8f394a1612c11d13f1cf5d5febe04e2357648b79a203acf4267ca887f2212dd0",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a0b9bbb5cbe0fb8a721a4980758db5c2eaa2d9558847a41a27e293a7c4030b3",
+        "sha256_in_prefix": "8a0b9bbb5cbe0fb8a721a4980758db5c2eaa2d9558847a41a27e293a7c4030b3",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/objectmodel.py",
+        "path_type": "hardlink",
+        "sha256": "43e8b0ed224e5e0f70434dc9dce4418171bf4985e5afd0f9421e9f92638a61de",
+        "sha256_in_prefix": "43e8b0ed224e5e0f70434dc9dce4418171bf4985e5afd0f9421e9f92638a61de",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/objectmodel.pyc",
+        "path_type": "hardlink",
+        "sha256": "6807e53c9fa81bb40a7c5b03ae3338fa5263d0aed743f70d866f4db2fdb31dd6",
+        "sha256_in_prefix": "6807e53c9fa81bb40a7c5b03ae3338fa5263d0aed743f70d866f4db2fdb31dd6",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_AM.py",
+        "path_type": "hardlink",
+        "sha256": "691b1da421643231699b7775af0abf9a68a08ec00e53862acad05b72ac5732e9",
+        "sha256_in_prefix": "691b1da421643231699b7775af0abf9a68a08ec00e53862acad05b72ac5732e9",
+        "size_in_bytes": 1973
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_AM.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb2e3d27c4623b02c259fda084acd5ea61926e9f5f16286710f935af5900932b",
+        "sha256_in_prefix": "eb2e3d27c4623b02c259fda084acd5ea61926e9f5f16286710f935af5900932b",
+        "size_in_bytes": 2143
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_GP_MCMC.py",
+        "path_type": "hardlink",
+        "sha256": "f1045cdac344f73fc4f95b25844e72968a277b663815387608f85d403d2aeb67",
+        "sha256_in_prefix": "f1045cdac344f73fc4f95b25844e72968a277b663815387608f85d403d2aeb67",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_GP_MCMC.pyc",
+        "path_type": "hardlink",
+        "sha256": "49c028c4f3cae60b98b725d69b8ae6e7bfc2aebd83c5e7b0c89c05e6911d44ca",
+        "sha256_in_prefix": "49c028c4f3cae60b98b725d69b8ae6e7bfc2aebd83c5e7b0c89c05e6911d44ca",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_MCMCSampler.py",
+        "path_type": "hardlink",
+        "sha256": "8044006c73feda244d171819307b86acb25f08b1d8245ff351a344bfecc2da56",
+        "sha256_in_prefix": "8044006c73feda244d171819307b86acb25f08b1d8245ff351a344bfecc2da56",
+        "size_in_bytes": 2105
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_MCMCSampler.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d29d610322a52c427ea9643ee5dec0899f5b72d3ea20e376630865a1c030eb1",
+        "sha256_in_prefix": "4d29d610322a52c427ea9643ee5dec0899f5b72d3ea20e376630865a1c030eb1",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_adaptive.py",
+        "path_type": "hardlink",
+        "sha256": "2bae847d3bd3b1734e6ef94b5256f295c3c798f5343c54645fef7f6d89ed3de9",
+        "sha256_in_prefix": "2bae847d3bd3b1734e6ef94b5256f295c3c798f5343c54645fef7f6d89ed3de9",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_adaptive.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cd454a1cafdbbc1c17195b157fadc2a8579ddd022d9f6ae64635116b8d4958e",
+        "sha256_in_prefix": "3cd454a1cafdbbc1c17195b157fadc2a8579ddd022d9f6ae64635116b8d4958e",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_basiscov.py",
+        "path_type": "hardlink",
+        "sha256": "6c82996b33655fdac147579a1cd51cbf2ed4f6cfbc76e3d493ab24a3d70524f3",
+        "sha256_in_prefix": "6c82996b33655fdac147579a1cd51cbf2ed4f6cfbc76e3d493ab24a3d70524f3",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_basiscov.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d530c688f61357c38d8e606a559863ca0ecb07e439d430b445df57fe2dd6cac",
+        "sha256_in_prefix": "2d530c688f61357c38d8e606a559863ca0ecb07e439d430b445df57fe2dd6cac",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_binary_step.py",
+        "path_type": "hardlink",
+        "sha256": "48a0cdcd3a306f14f1cc8b2b40c22b1de9b5fb5cf8ff73a4237ba854f421ccca",
+        "sha256_in_prefix": "48a0cdcd3a306f14f1cc8b2b40c22b1de9b5fb5cf8ff73a4237ba854f421ccca",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_binary_step.pyc",
+        "path_type": "hardlink",
+        "sha256": "603068494ac395786c00a1346ca3bc55dba657202223d6014d3f624b422c5358",
+        "sha256_in_prefix": "603068494ac395786c00a1346ca3bc55dba657202223d6014d3f624b422c5358",
+        "size_in_bytes": 1886
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_container.py",
+        "path_type": "hardlink",
+        "sha256": "5ce4628f5bf64888dbeef603f1329adc76d794029c72a4ab5272302a4491ed21",
+        "sha256_in_prefix": "5ce4628f5bf64888dbeef603f1329adc76d794029c72a4ab5272302a4491ed21",
+        "size_in_bytes": 2351
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_container.pyc",
+        "path_type": "hardlink",
+        "sha256": "a415ff00171ecb38e493f82cf5d3c5bd64e063775a832003461770646dad6153",
+        "sha256_in_prefix": "a415ff00171ecb38e493f82cf5d3c5bd64e063775a832003461770646dad6153",
+        "size_in_bytes": 2932
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_convergence.py",
+        "path_type": "hardlink",
+        "sha256": "3de6e6ec1fca22ccd9c50c1cc467e346972c67389f298ba1f42db33fafac2c1a",
+        "sha256_in_prefix": "3de6e6ec1fca22ccd9c50c1cc467e346972c67389f298ba1f42db33fafac2c1a",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_convergence.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4990df5270a4a73db68e4d371bad7b596bd67733c7f718bfc79b6a2b152713b",
+        "sha256_in_prefix": "b4990df5270a4a73db68e4d371bad7b596bd67733c7f718bfc79b6a2b152713b",
+        "size_in_bytes": 4746
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_cov.py",
+        "path_type": "hardlink",
+        "sha256": "759f2d7c2f41211b5423e9258d39f2ac2b64f6520d4b079e03154da7817dfef7",
+        "sha256_in_prefix": "759f2d7c2f41211b5423e9258d39f2ac2b64f6520d4b079e03154da7817dfef7",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_cov.pyc",
+        "path_type": "hardlink",
+        "sha256": "6af2b976b99639986ea5e646f8dfec23dbb1879ff3cab1a9e85e87b291f88c4d",
+        "sha256_in_prefix": "6af2b976b99639986ea5e646f8dfec23dbb1879ff3cab1a9e85e87b291f88c4d",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_database.py",
+        "path_type": "hardlink",
+        "sha256": "32a5be45f6d1283c7a0dfb048556751b012a44b4296698d92e8ec8d1329c0e52",
+        "sha256_in_prefix": "32a5be45f6d1283c7a0dfb048556751b012a44b4296698d92e8ec8d1329c0e52",
+        "size_in_bytes": 15497
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_database.pyc",
+        "path_type": "hardlink",
+        "sha256": "dda7390d63f9da169b3ac7730dfeac888cf399af2a0d2698a5ff6de33d9a41be",
+        "sha256_in_prefix": "dda7390d63f9da169b3ac7730dfeac888cf399af2a0d2698a5ff6de33d9a41be",
+        "size_in_bytes": 13325
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_distributions.py",
+        "path_type": "hardlink",
+        "sha256": "5df810bf00130e8487aa64c6f5a61bb069881217df9cb5684b05981b1c023325",
+        "sha256_in_prefix": "5df810bf00130e8487aa64c6f5a61bb069881217df9cb5684b05981b1c023325",
+        "size_in_bytes": 42519
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_distributions.pyc",
+        "path_type": "hardlink",
+        "sha256": "05c03492af06240541f6993ae1bdaece7ed7f99498060b132669053c7da492d5",
+        "sha256_in_prefix": "05c03492af06240541f6993ae1bdaece7ed7f99498060b132669053c7da492d5",
+        "size_in_bytes": 56631
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_gradients.py",
+        "path_type": "hardlink",
+        "sha256": "d899395972c3ad6237c0fc0e901a840cdc864d2de5621f330472385b43eb5e70",
+        "sha256_in_prefix": "d899395972c3ad6237c0fc0e901a840cdc864d2de5621f330472385b43eb5e70",
+        "size_in_bytes": 11443
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_gradients.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cafd49073998501cf76de81c25c7346f751c2d91a1d94af953270035cf1200d",
+        "sha256_in_prefix": "9cafd49073998501cf76de81c25c7346f751c2d91a1d94af953270035cf1200d",
+        "size_in_bytes": 10714
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_graph.py",
+        "path_type": "hardlink",
+        "sha256": "b96ed916939da68baee9792068b2116cee5603f5f1b79787ed3704546666a537",
+        "sha256_in_prefix": "b96ed916939da68baee9792068b2116cee5603f5f1b79787ed3704546666a537",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_graph.pyc",
+        "path_type": "hardlink",
+        "sha256": "a29059b079f03a252df494fe23325010ef80cf4586feb2296e5f0447da19d6ee",
+        "sha256_in_prefix": "a29059b079f03a252df494fe23325010ef80cf4586feb2296e5f0447da19d6ee",
+        "size_in_bytes": 3226
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_instantiation.py",
+        "path_type": "hardlink",
+        "sha256": "098dc5bc266e1e973b67808b95824aa05483308cfbb444fb2e7e9518a07b327c",
+        "sha256_in_prefix": "098dc5bc266e1e973b67808b95824aa05483308cfbb444fb2e7e9518a07b327c",
+        "size_in_bytes": 3610
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_instantiation.pyc",
+        "path_type": "hardlink",
+        "sha256": "99f6fccd41f213c91ff1ba474b7641ca20901fec3f694caf4a7a27a80bd2416f",
+        "sha256_in_prefix": "99f6fccd41f213c91ff1ba474b7641ca20901fec3f694caf4a7a27a80bd2416f",
+        "size_in_bytes": 5281
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_interactive.py",
+        "path_type": "hardlink",
+        "sha256": "2dcc5554f883c3080714eb21a29a4cacf69b234ed3b9e0ae1bd09b2560a8cc78",
+        "sha256_in_prefix": "2dcc5554f883c3080714eb21a29a4cacf69b234ed3b9e0ae1bd09b2560a8cc78",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_interactive.pyc",
+        "path_type": "hardlink",
+        "sha256": "d14bf7aa78b9f90410144798544ff29c2998695beece002d7f4d3e76c7225cec",
+        "sha256_in_prefix": "d14bf7aa78b9f90410144798544ff29c2998695beece002d7f4d3e76c7225cec",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_mean.py",
+        "path_type": "hardlink",
+        "sha256": "c51d3596ef003d157eee16df3491e5498607ba896c68a1b377be3b48f9d79b7b",
+        "sha256_in_prefix": "c51d3596ef003d157eee16df3491e5498607ba896c68a1b377be3b48f9d79b7b",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_mean.pyc",
+        "path_type": "hardlink",
+        "sha256": "53f2e6e66bb8f5cd5234c4eaf95501736f648435fa7ff691e439586bf18284ad",
+        "sha256_in_prefix": "53f2e6e66bb8f5cd5234c4eaf95501736f648435fa7ff691e439586bf18284ad",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_missing.py",
+        "path_type": "hardlink",
+        "sha256": "2cb476f90b16fb6579e476156c443bc015c6ae3e4abc18247a20e86ceb0049a1",
+        "sha256_in_prefix": "2cb476f90b16fb6579e476156c443bc015c6ae3e4abc18247a20e86ceb0049a1",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_missing.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec23cf66b7fe387bd7a44063464feb5f750452a6c16f7850eb2646f2720ab07d",
+        "sha256_in_prefix": "ec23cf66b7fe387bd7a44063464feb5f750452a6c16f7850eb2646f2720ab07d",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_norm_approx.py",
+        "path_type": "hardlink",
+        "sha256": "ed3955f0838d0484a1feeb3335dc2cf9644524627d6725aca5b117978b48de9b",
+        "sha256_in_prefix": "ed3955f0838d0484a1feeb3335dc2cf9644524627d6725aca5b117978b48de9b",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_norm_approx.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4329d1bfdd5b7e4786c8a9eb994dd389c7e175c716fbbbd6e412b17684aacf9",
+        "sha256_in_prefix": "c4329d1bfdd5b7e4786c8a9eb994dd389c7e175c716fbbbd6e412b17684aacf9",
+        "size_in_bytes": 3510
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_observation.py",
+        "path_type": "hardlink",
+        "sha256": "a62227ce38f00e2d1ba705347d2b335f5d1630d7783d0925777435571b8b88c0",
+        "sha256_in_prefix": "a62227ce38f00e2d1ba705347d2b335f5d1630d7783d0925777435571b8b88c0",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_observation.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f1e2723eabbd2e41add269af78ad5f5b60abdbb379a28ac9fb61556f17906e4",
+        "sha256_in_prefix": "1f1e2723eabbd2e41add269af78ad5f5b60abdbb379a28ac9fb61556f17906e4",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_realization.py",
+        "path_type": "hardlink",
+        "sha256": "0ced58703080458a75668d3f761d66e94a9db09f9cc504e028a7c2f453db4cf7",
+        "sha256_in_prefix": "0ced58703080458a75668d3f761d66e94a9db09f9cc504e028a7c2f453db4cf7",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_realization.pyc",
+        "path_type": "hardlink",
+        "sha256": "d63e51d6bfabd56e108452f33d4c11c972e1c2d881b823cd0db8c02733514b60",
+        "sha256_in_prefix": "d63e51d6bfabd56e108452f33d4c11c972e1c2d881b823cd0db8c02733514b60",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_slice.py",
+        "path_type": "hardlink",
+        "sha256": "84d5a0ffe5e898dab52cfcc153676276fb5ec895b2a2bb1728ff85238458c10c",
+        "sha256_in_prefix": "84d5a0ffe5e898dab52cfcc153676276fb5ec895b2a2bb1728ff85238458c10c",
+        "size_in_bytes": 818
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_slice.pyc",
+        "path_type": "hardlink",
+        "sha256": "f97fff25bcce001a4f9b4ab043feaae961ba53d589463e50a3334a110076b9b9",
+        "sha256_in_prefix": "f97fff25bcce001a4f9b4ab043feaae961ba53d589463e50a3334a110076b9b9",
+        "size_in_bytes": 1681
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_special_methods.py",
+        "path_type": "hardlink",
+        "sha256": "9c1accc9cf871be74b84d8e31c3b1cbf83999d5b6f798457672712aaf4e6cd98",
+        "sha256_in_prefix": "9c1accc9cf871be74b84d8e31c3b1cbf83999d5b6f798457672712aaf4e6cd98",
+        "size_in_bytes": 4208
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_special_methods.pyc",
+        "path_type": "hardlink",
+        "sha256": "da1e00b08076bd39b3d26751ba7aebddefc51b7b5cfff7040288ff656e508b78",
+        "sha256_in_prefix": "da1e00b08076bd39b3d26751ba7aebddefc51b7b5cfff7040288ff656e508b78",
+        "size_in_bytes": 4161
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "59dd2eb8384ef3a149004bbff13e738146e211638bd1208a0fda99083706ab16",
+        "sha256_in_prefix": "59dd2eb8384ef3a149004bbff13e738146e211638bd1208a0fda99083706ab16",
+        "size_in_bytes": 2320
+      },
+      {
+        "_path": "Lib/site-packages/pymc/tests/test_utils.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b5d85280908309235e1c3150ad04a545e2efb0274e82b952f89ae92ca2c0ac4",
+        "sha256_in_prefix": "1b5d85280908309235e1c3150ad04a545e2efb0274e82b952f89ae92ca2c0ac4",
+        "size_in_bytes": 4977
+      },
+      {
+        "_path": "Lib/site-packages/pymc/threadpool.py",
+        "path_type": "hardlink",
+        "sha256": "9b2f3b74c0f7499e47a25521b44f2f83973af4e9bd3f2047916d692d21ddbc24",
+        "sha256_in_prefix": "9b2f3b74c0f7499e47a25521b44f2f83973af4e9bd3f2047916d692d21ddbc24",
+        "size_in_bytes": 13712
+      },
+      {
+        "_path": "Lib/site-packages/pymc/threadpool.pyc",
+        "path_type": "hardlink",
+        "sha256": "a18e68c70190980813f59cca9db49687384b6651e7010a9477aff10c17c58f73",
+        "sha256_in_prefix": "a18e68c70190980813f59cca9db49687384b6651e7010a9477aff10c17c58f73",
+        "size_in_bytes": 14996
+      },
+      {
+        "_path": "Lib/site-packages/pymc/utils.py",
+        "path_type": "hardlink",
+        "sha256": "810e7c2ae70a5f6b607cfc2369573fd29e3c576f041e65fb64f4d527e60e969f",
+        "sha256_in_prefix": "810e7c2ae70a5f6b607cfc2369573fd29e3c576f041e65fb64f4d527e60e969f",
+        "size_in_bytes": 27866
+      },
+      {
+        "_path": "Lib/site-packages/pymc/utils.pyc",
+        "path_type": "hardlink",
+        "sha256": "c402a1d81398c9976282f5e126c7c715bdacc8200102726bc566ce044dcb7ef3",
+        "sha256_in_prefix": "c402a1d81398c9976282f5e126c7c715bdacc8200102726bc566ce044dcb7ef3",
+        "size_in_bytes": 27662
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pymc",
+  "sha256": "b8a40005bb79be3e5401371c430b13068ed0c4bc3ccf9e6de19a637776953097",
+  "size": 541786,
+  "subdir": "win-64",
+  "timestamp": 1555694856431,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pymc-2.3.7-py27h3cfc35f_0.conda",
+  "version": "2.3.7"
+}

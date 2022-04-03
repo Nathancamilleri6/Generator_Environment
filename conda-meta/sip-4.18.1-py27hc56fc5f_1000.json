@@ -1,0 +1,105 @@
+{
+  "build": "py27hc56fc5f_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [
+    "python_abi * *_cp27m"
+  ],
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "vc 9.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\sip-4.18.1-py27hc56fc5f_1000",
+  "features": "",
+  "files": [
+    "Lib/site-packages/sip.pyd",
+    "Lib/site-packages/sip.pyi",
+    "Lib/site-packages/sipconfig.py",
+    "Lib/site-packages/sipconfig.pyc",
+    "Lib/site-packages/sipdistutils.py",
+    "Lib/site-packages/sipdistutils.pyc",
+    "Library/bin/sip.exe",
+    "include/sip.h",
+    ".nonadmin"
+  ],
+  "fn": "sip-4.18.1-py27hc56fc5f_1000.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\sip-4.18.1-py27hc56fc5f_1000",
+    "type": 1
+  },
+  "md5": "f8f3dd4146b0f7bda03f0cebab51fd9b",
+  "name": "sip",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\sip-4.18.1-py27hc56fc5f_1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/sip.pyd",
+        "path_type": "hardlink",
+        "sha256": "394e89f7c388e57b1690a38e121d3b1fba9c5a4ad20a896c2070f664c08c1508",
+        "sha256_in_prefix": "394e89f7c388e57b1690a38e121d3b1fba9c5a4ad20a896c2070f664c08c1508",
+        "size_in_bytes": 101376
+      },
+      {
+        "_path": "Lib/site-packages/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "sha256_in_prefix": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "Lib/site-packages/sipconfig.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:\\\\bld\\\\sip_1545178608637\\\\_h_env",
+        "sha256": "25b6deff9b949f79042ca3b89a6d66c27639855acb0c6c152cfb97e11876fe71",
+        "sha256_in_prefix": "ffd5b05f4f3f3fa1984f30ec3ce103097f3e44534308256a27f1735ee340e8ab",
+        "size_in_bytes": 99708
+      },
+      {
+        "_path": "Lib/site-packages/sipconfig.pyc",
+        "path_type": "hardlink",
+        "sha256": "80a98f5dfe06fa285cba2e74da06bd828d7b5c0d2af2a87f5e537f70fa94fdd2",
+        "sha256_in_prefix": "80a98f5dfe06fa285cba2e74da06bd828d7b5c0d2af2a87f5e537f70fa94fdd2",
+        "size_in_bytes": 71225
+      },
+      {
+        "_path": "Lib/site-packages/sipdistutils.py",
+        "path_type": "hardlink",
+        "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "sha256_in_prefix": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "size_in_bytes": 6041
+      },
+      {
+        "_path": "Lib/site-packages/sipdistutils.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb7fa1cdd4033e6f0f09ebbf3d8d1eb34e36837a7ace1c57919103970708635a",
+        "sha256_in_prefix": "bb7fa1cdd4033e6f0f09ebbf3d8d1eb34e36837a7ace1c57919103970708635a",
+        "size_in_bytes": 5576
+      },
+      {
+        "_path": "Library/bin/sip.exe",
+        "path_type": "hardlink",
+        "sha256": "825fa67b44d482f86b2b45431de7e3244a3f9c6e65ca5097f7c863be953005e5",
+        "sha256_in_prefix": "825fa67b44d482f86b2b45431de7e3244a3f9c6e65ca5097f7c863be953005e5",
+        "size_in_bytes": 372224
+      },
+      {
+        "_path": "include/sip.h",
+        "path_type": "hardlink",
+        "sha256": "e399b573e3474aaaa84a4a87d1807db99c58bf83c608eb257ab92a157ecafc08",
+        "sha256_in_prefix": "e399b573e3474aaaa84a4a87d1807db99c58bf83c608eb257ab92a157ecafc08",
+        "size_in_bytes": 58116
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "21fb3644e0b5627d1d620114e00986eba05ac27cb23ae0263c60306f6813bf3b",
+  "size": 269681,
+  "subdir": "win-64",
+  "timestamp": 1545178675406,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/sip-4.18.1-py27hc56fc5f_1000.tar.bz2",
+  "version": "4.18.1"
+}

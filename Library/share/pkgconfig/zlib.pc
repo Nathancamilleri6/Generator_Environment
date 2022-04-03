@@ -1,0 +1,13 @@
+prefix=C:/Users/natha/anaconda3/envs/Generator/Library
+exec_prefix=C:/Users/natha/anaconda3/envs/Generator/Library
+libdir=C:/Users/natha/anaconda3/envs/Generator/Library/lib
+sharedlibdir=C:/Users/natha/anaconda3/envs/Generator/Library/lib
+includedir=C:/Users/natha/anaconda3/envs/Generator/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,37 @@
+{
+  "build": "h57928b3_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=2.2.5,<2.2.6.0a0",
+    "pyqt"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\matplotlib-2.2.5-h57928b3_3",
+  "features": "",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "matplotlib-2.2.5-h57928b3_3.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\matplotlib-2.2.5-h57928b3_3",
+    "type": 1
+  },
+  "md5": "c68b0ab597cd676e5eff7b0d551babb2",
+  "name": "matplotlib",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\matplotlib-2.2.5-h57928b3_3.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8be12b2bb66a74f6b6242a54aca6da3d25c96f25658205daa8f05ad77733b8b2",
+  "size": 7274,
+  "subdir": "win-64",
+  "timestamp": 1605653909720,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/matplotlib-2.2.5-h57928b3_3.tar.bz2",
+  "version": "2.2.5"
+}

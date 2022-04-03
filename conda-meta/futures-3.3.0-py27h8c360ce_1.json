@@ -1,0 +1,165 @@
+{
+  "build": "py27h8c360ce_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "python_abi 2.7.* *_cp27m"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\futures-3.3.0-py27h8c360ce_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/concurrent/__init__.py",
+    "Lib/site-packages/concurrent/__init__.pyc",
+    "Lib/site-packages/concurrent/futures/__init__.py",
+    "Lib/site-packages/concurrent/futures/__init__.pyc",
+    "Lib/site-packages/concurrent/futures/_base.py",
+    "Lib/site-packages/concurrent/futures/_base.pyc",
+    "Lib/site-packages/concurrent/futures/process.py",
+    "Lib/site-packages/concurrent/futures/process.pyc",
+    "Lib/site-packages/concurrent/futures/thread.py",
+    "Lib/site-packages/concurrent/futures/thread.pyc",
+    "Lib/site-packages/futures-3.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/futures-3.3.0.dist-info/LICENSE",
+    "Lib/site-packages/futures-3.3.0.dist-info/METADATA",
+    "Lib/site-packages/futures-3.3.0.dist-info/RECORD",
+    "Lib/site-packages/futures-3.3.0.dist-info/WHEEL",
+    "Lib/site-packages/futures-3.3.0.dist-info/top_level.txt",
+    ".nonadmin"
+  ],
+  "fn": "futures-3.3.0-py27h8c360ce_1.tar.bz2",
+  "license": "PSF",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\futures-3.3.0-py27h8c360ce_1",
+    "type": 1
+  },
+  "md5": "bc6025d6a22a8878b9c7b35cd1fe60ea",
+  "name": "futures",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\futures-3.3.0-py27h8c360ce_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/concurrent/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8415eab7cae7f7950295b1e00b98bf1a3ccf1fa424b9e01ff9a6bcb4d0cde19",
+        "sha256_in_prefix": "a8415eab7cae7f7950295b1e00b98bf1a3ccf1fa424b9e01ff9a6bcb4d0cde19",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd028dba525dc54480a55754b5115ee027702af850a2a791b9641eb8452447ea",
+        "sha256_in_prefix": "dd028dba525dc54480a55754b5115ee027702af850a2a791b9641eb8452447ea",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "944ad5c29d4abff728d4f2a67d8087bc185667f38db60f9b93dbfbe011b543cc",
+        "sha256_in_prefix": "944ad5c29d4abff728d4f2a67d8087bc185667f38db60f9b93dbfbe011b543cc",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "128c57f97901a3767b83654cf5c734b8db2344e837dc04af3d948b4a3bb19981",
+        "sha256_in_prefix": "128c57f97901a3767b83654cf5c734b8db2344e837dc04af3d948b4a3bb19981",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/_base.py",
+        "path_type": "hardlink",
+        "sha256": "ed26b17e68f079e2a0c396d832a084d3d57fc3843403b37932d70577257cca92",
+        "sha256_in_prefix": "ed26b17e68f079e2a0c396d832a084d3d57fc3843403b37932d70577257cca92",
+        "size_in_bytes": 23798
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/_base.pyc",
+        "path_type": "hardlink",
+        "sha256": "a19b2131e3fb464d1799ec70df3551249d88d6f7aeb45d611829511828f33d0b",
+        "sha256_in_prefix": "a19b2131e3fb464d1799ec70df3551249d88d6f7aeb45d611829511828f33d0b",
+        "size_in_bytes": 24809
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/process.py",
+        "path_type": "hardlink",
+        "sha256": "5d63571aaf0f827b7fff6633e3d6c257d772b9a5a264b964470b7821030a68e4",
+        "sha256_in_prefix": "5d63571aaf0f827b7fff6633e3d6c257d772b9a5a264b964470b7821030a68e4",
+        "size_in_bytes": 14986
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/process.pyc",
+        "path_type": "hardlink",
+        "sha256": "0dacdd5f65e3d61be8af8f9549f3f1989be6790961b4c8d135021563d4ca7935",
+        "sha256_in_prefix": "0dacdd5f65e3d61be8af8f9549f3f1989be6790961b4c8d135021563d4ca7935",
+        "size_in_bytes": 12362
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/thread.py",
+        "path_type": "hardlink",
+        "sha256": "979c62672b0974408b8e2cc99a2c62f31423e22096729bc69e85225e92534617",
+        "sha256_in_prefix": "979c62672b0974408b8e2cc99a2c62f31423e22096729bc69e85225e92534617",
+        "size_in_bytes": 5923
+      },
+      {
+        "_path": "Lib/site-packages/concurrent/futures/thread.pyc",
+        "path_type": "hardlink",
+        "sha256": "436b74081012a14cdbfd48039476cd5c683acbf2cb61a837552d4cb8861dab1b",
+        "sha256_in_prefix": "436b74081012a14cdbfd48039476cd5c683acbf2cb61a837552d4cb8861dab1b",
+        "size_in_bytes": 5311
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a698bd5d441e4a16af6c992b8e80cbfa12755d72d910854fa1fb11d4deb0059a",
+        "sha256_in_prefix": "a698bd5d441e4a16af6c992b8e80cbfa12755d72d910854fa1fb11d4deb0059a",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2f38f5f8f092901c383e32ebdbd96fff2cc28a1e877dd055a5b6a83b9cd218ab",
+        "sha256_in_prefix": "2f38f5f8f092901c383e32ebdbd96fff2cc28a1e877dd055a5b6a83b9cd218ab",
+        "size_in_bytes": 1972
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0b8af254822a200acf733ff0a2be30fa7ba62b9252dd546f3caa5965603dfa0f",
+        "sha256_in_prefix": "0b8af254822a200acf733ff0a2be30fa7ba62b9252dd546f3caa5965603dfa0f",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ba67af504b58825c7706c9917646de7b10346a3b2f38adb96212540727185858",
+        "sha256_in_prefix": "ba67af504b58825c7706c9917646de7b10346a3b2f38adb96212540727185858",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "Lib/site-packages/futures-3.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7a52fb6f3165932559af7334820d0078b50fb79389d85f6e25c9aeeb754cb7b0",
+        "sha256_in_prefix": "7a52fb6f3165932559af7334820d0078b50fb79389d85f6e25c9aeeb754cb7b0",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "48bccdc8c48d7ea64c835e82ea85d873c3b0d4b852ef25e9349106a620428b4a",
+  "size": 26042,
+  "subdir": "win-64",
+  "timestamp": 1584550591111,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/futures-3.3.0-py27h8c360ce_1.tar.bz2",
+  "version": "3.3.0"
+}
